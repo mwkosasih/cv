@@ -5,7 +5,7 @@
  * Replace REMOTE_BACKEND_URL with your live backend service URL on Render, Railway, or Fly.io
  * (e.g., 'https://cv-backend.onrender.com')
  */
-const REMOTE_BACKEND_URL = 'https://cv-backend.onrender.com';
+const REMOTE_BACKEND_URL = 'https://huggingface.co/spaces/mwkosasih/cv-backend';
 
 // Automatically detect local vs production host
 const isSameOriginBackend = window.location.port === '8082';
