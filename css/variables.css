@@ -1,0 +1,26 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --bg-top: #f1f5f9;
+  --bg-bottom: #e2e8f0;
+  --wrapper-bg: #ffffff;
+  --content-top: #ffffff;
+  --content-bottom: #ffffff;
+  --header-top: #f8fafc;
+  --header-bottom: #f1f5f9;
+  --header-border: #e2e8f0;
+  --primary-blue: #0284c7;
+  --primary-dark: #0369a1;
+  --btn-blue-top: #0284c7;
+  --btn-blue-bottom: #0369a1;
+  --text-main: #0f172a;
+  --text-muted: #1e293b;
+  --text-light: #475569;
+  --border-light: #e2e8f0;
+  --code-bg: #1e293b;
+  --code-text: #f8fafc;
+  --chat-primary: #0f172a;
+  --chat-accent: #0284c7;
+  --chat-bg: #f8fafc;
+}
