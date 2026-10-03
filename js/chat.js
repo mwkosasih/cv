@@ -103,7 +103,7 @@ const AppChat = {
       this.appendMessage(
         chatBody,
         'bot',
-        'Sorry, I encountered an issue connecting to the backend. Please check your connection or server logs.'
+        'Sorry, I encountered an issue connecting to the backend.'
       );
     } finally {
       this.isWaitingForResponse = false;
