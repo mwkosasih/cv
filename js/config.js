@@ -5,7 +5,7 @@
  * Replace REMOTE_BACKEND_URL with your live backend service URL on Render, Railway, or Fly.io
  * (e.g., 'https://cv-backend.onrender.com')
  */
-const REMOTE_BACKEND_URL = 'https://cv-backend-ys1u.onrender.com/';
+const REMOTE_BACKEND_URL = 'https://cv-backend-ys1u.onrender.com';
 
 // Automatically detect local vs production host
 const isSameOriginBackend = window.location.port === '8082';
@@ -21,7 +21,7 @@ const getBaseBackendURL = () => {
   if (isLocalhost) {
     return 'http://localhost:8082'; // Local development server
   }
-  return REMOTE_BACKEND_URL; // Cloud backend for GitHub Pages
+  return REMOTE_BACKEND_URL.replace(/\/+$/, ''); // Strip any trailing slash
 };
 
 const BASE_URL = getBaseBackendURL();
